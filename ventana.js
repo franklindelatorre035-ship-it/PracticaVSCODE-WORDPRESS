@@ -1,4 +1,4 @@
-window.load = () =>
+window.onload = () =>
   document.getElementById("popup-anuncio").classList.add("activo");
 
 document.getElementById("cerrarPopup").onclick = () =>
